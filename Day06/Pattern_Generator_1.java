@@ -1,5 +1,16 @@
 package Day06;
 
+// inverted triangle pattern
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+
+// i - row
+// j - spaces 
+// k - stars in each row
+
 public class Pattern_Generator_1 {
 
     public static void main(String[] args) {
@@ -10,7 +21,7 @@ public class Pattern_Generator_1 {
                 System.out.print(" ") ;
             }
 
-            for (int j = 0 ; j < ((5*2-1)-2*i); j++) {
+            for (int j = 0 ; j < ((2*5-2*i-1)); j++) {
                 System.out.print("*") ;
             }
             System.out.println();

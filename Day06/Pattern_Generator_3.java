@@ -1,5 +1,20 @@
 package Day06;
 
+
+// Diamond shape
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *
+
+// i - row
+// j - spaces 
+// k - stars in each row 
+// combined 2 for loops (upright and inverted)
+
 public class Pattern_Generator_3 {
 
     public static void main(String[] args) {

@@ -1,5 +1,15 @@
 package Day06;
 
+// Parallelogram or inclined sqaure
+//      *****
+//     *****
+//    *****
+//   *****
+//  *****
+// i - row
+// j - spaces 
+// k - stars in each row
+
 public class Pattern_Generator_2 {
 
     public static void main (String [] args) {
