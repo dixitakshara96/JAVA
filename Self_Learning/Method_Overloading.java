@@ -1,6 +1,6 @@
 package Self_Learning;
 
-public class Method_Overriding {
+public class Method_Overloading {
 
     public static void myMethod( int a , int b) {
         System.out.println("a + b using myMethod 1st = "+ (a+b));   
