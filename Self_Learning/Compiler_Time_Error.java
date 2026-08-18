@@ -9,7 +9,7 @@ public class Compiler_Time_Error {
             x = 50;
         }
         //  abhi error yaha na bhidu pehle kuch nhi print kraya ya hello print kra diya toh error nhi aya tha ab yaha jab x print kraya
-        System.out.println(x);
+        // System.out.println(x);
     }
     
 }
