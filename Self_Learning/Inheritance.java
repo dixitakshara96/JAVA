@@ -24,14 +24,14 @@ package Self_Learning;
             }
         }
 
-    public static void main(String [] args) {
-        int a = 10;
-        int b = 20 ;
-        MyCalculator cal = new MyCalculator() ;
-        cal.addition(a,b);
-        cal.multiplication(a, b);
+        public static void main(String [] args) {
+            int a = 10;
+            int b = 20 ;
+            MyCalculator cal = new MyCalculator() ;
+            cal.addition(a,b);
+            cal.multiplication(a, b);
+        }
     }
-}
 
    
 
