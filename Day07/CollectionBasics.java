@@ -77,14 +77,16 @@ public class CollectionBasics {
                 System.out.println("Invalid Choice");
                 break;
         }
+        
 
         for (Integer num : array) {
             set.add(num);  
         }
-        System.out.println("Unique Elements: " + set);
+
+        System.out.println("\nUnique Elements: " + set);
 
 
-        System.out.println("---MENU---\n");
+        System.out.println("---HASHMAP MENU---\n");
         System.out.println("1. Add Student");
         System.out.println("2. Remove Student");
         System.out.println("3. Search for a student using ID");
