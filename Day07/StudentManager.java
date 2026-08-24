@@ -2,6 +2,7 @@ package Day07;
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.InputMismatchException;
+import java.util.Map;
 
 
 public class StudentManager {
@@ -70,8 +71,8 @@ public class StudentManager {
                         break;
 
                     case 4 :
-                        for (String nameString : students.values()) {
-                            System.out.println("\nStudent: " + nameString);
+                        for (Map.Entry<Integer, String> entry : students.entrySet()) {
+                            System.out.println(entry.getKey() + " : " + entry.getValue());
                         }
                         break;
 
@@ -94,6 +95,3 @@ public class StudentManager {
     }
     
 }
-
-    
-

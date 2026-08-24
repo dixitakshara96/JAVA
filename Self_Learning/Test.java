@@ -1,22 +1,23 @@
+
 package Self_Learning;
 
 public class Test {
-    public static void main(String[] args) {
+   public Test() {
+   }
 
-        int i = 1;
+   public static void main(String[] var0) {
+      int var1 = 1;
 
-        while (i <= 5) {
+      while(var1 <= 5) {
+         if (var1 == 3) {
+            ++var1;
+         } else {
+            System.out.print(var1 + " ");
+            ++var1;
+         }
+      }
 
-            if (i == 3) {
-                i++;
-                continue;
-            }
-
-            System.out.print(i + " ");
-            i++;
-        }
-    }
-
+   }
 }
 
     

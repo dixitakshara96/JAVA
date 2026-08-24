@@ -49,7 +49,7 @@ public class CollectionAnalyzer {
 
             frequency.put(array.get(i) , frequency.getOrDefault(array.get(i), 0) + 1);
         }
-        average = (sum)/(totalNumber);
+        average = (double)(sum)/(double)(totalNumber);
 
         System.out.println("\n---DETAILS---\n");
         System.out.println("Total Numbers: " + totalNumber);
