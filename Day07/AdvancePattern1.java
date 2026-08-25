@@ -16,10 +16,10 @@ public class AdvancePattern1 {
                 System.out.print(j);
             }
             
-            // 3. Print counting down
-            for (int j = i - 1; j >= 1; j--) {
-                System.out.print(j);
-            }
+            // // 3. Print counting down
+            // for (int j = i - 1; j >= 1; j--) {
+            //     System.out.print(j);
+            // }
             
             // Move to the next line
             System.out.println();
