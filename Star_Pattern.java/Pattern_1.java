@@ -1,34 +1,20 @@
 public class Pattern_1 {
+
+    // right angled triangle
+    // *
+    // ***
+    // ****
+    // *****
+    // ******
+    // *******
     public static void main(String[] args){
 
-        for(int i = 0 ; i<6 ; i++ ) {
+        int n = 6;
 
-            for (int j=0 ; j<6 ; j++){
+        for(int i = 0 ; i<n ; i++ ) {
 
-                
-                if (i == 0 && j == 0) {
-                    System.out.print("*");
-                }
-
-                if (i == 1 && j <= 1) {
-                    System.out.print("*");
-                }
-
-                if (i == 2 && j <= 2) {
-                    System.out.print("*");
-                }
-
-                if (i == 3 && j <= 3) {
-                    System.out.print("*");
-                }
-
-                if (i == 4 && j <= 4) {
-                    System.out.print("*");
-                }
-
-                if (i == 5 && j <= 5) {
-                    System.out.print("*");
-                }
+            for (int j=0 ; j<=i ; j++){
+                System.out.print("*");
             }
             System.out.println();
         }
