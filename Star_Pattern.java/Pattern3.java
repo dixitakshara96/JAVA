@@ -1,5 +1,12 @@
 public class Pattern3 {
 
+// ******
+// *****
+// ****
+// ***
+// **
+// *
+
     // inverted right angled triangle
     public static void main(String[] args){
 
