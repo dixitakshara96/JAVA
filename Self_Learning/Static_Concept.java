@@ -9,7 +9,7 @@ public class Static_Concept {
 
     public static void main(String[] args) {
         // main() method is a static method can't access instance variable
-        System.out.println(x);
+        // System.out.println(x);
 
     }
 
