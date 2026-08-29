@@ -7,6 +7,7 @@ public class Case_1 {
         try {
             System.out.println("A");
             int x = 10/0;
+            // Skipped the code written after this 😅 Point to be noted MyLord.
             System.out.println("B");
 
         }
