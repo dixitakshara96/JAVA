@@ -6,9 +6,12 @@ public class VarLenArg_MethodOverloading2 {
 
     public static void main(String[]args) {
 
-    //     varLen();
+        // varLen();
 
-    //     varLen();
+        // here this reference is ambigous because yaha yeh samajh hi nhi aaraha compiler ko ki kis 
+        // method ko aap pukaar rahe hai (call kar rhe hai)
+        // int wale ko ki String wale ko 
+        // confusiya gya hai wo 😑
     }
 
     static void varLen(int ...varArg) {
