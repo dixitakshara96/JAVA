@@ -14,6 +14,10 @@ public class Constructor {
         stud2.detailDisplay();
 
     }
+
+    // Declaration
+    // Instantiation
+    // Initiation
     
 }
 
