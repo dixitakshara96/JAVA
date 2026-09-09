@@ -22,3 +22,4 @@ public class NonTail {
     }
     
 }
+// non tail as the recursion function is called before and the process this executing after that as well
