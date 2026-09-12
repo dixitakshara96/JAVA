@@ -20,8 +20,8 @@ public class First {
         // RHS is the object (heap)
         // Null is a special value literal for reference variable point to in memory for Non Primitives
 
-        int[] array3;
-        array3 = new int[6];
+        int[] array3; // Compile Time
+        array3 = new int[6]; // Runtime 
 
         for (int i = 0 ; i < array3.length ; i++) {
             System.out.println("Enter element: ");

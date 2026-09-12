@@ -15,9 +15,10 @@ public class SwapArray {
     }
 
     // ab yaha dekho actually mamla yeh hai ki array as a parameter diya gya hai 
-    // toh array jo hai wo toh reference variable hai 
-    // but jo actual values hai wo objects hai jo ek container mai store hai 
-    // jab humne actual uss container mai shufflinng kar di toh wo literally hua hai 
+    // toh 'array' jo hai wo toh reference variable hai 
+    // but jo actual values hai wo objects hai jo ek container mai store hai (heap)
+    // jab humne actual uss container mai shuffling kar di toh wo literally hua hai 
+
     static void swapElement( int[] arr, int i, int j) {
         int temp = arr[i]; 
         arr[i] = arr[j];
