@@ -16,6 +16,17 @@ public class Wrapper {
         // in java int is a primitive DT
         // whereas
         // Integer is a class (similar to String)
+
+        int var1 = 45;
+
+        // cross isliye hua hai kyunki depricated hai
+        Integer var2 = new Integer(var1); // boxing
+        Integer var3 = var1 ; // autoboxing
+
+        Integer var4 = 69;
+        int var5 = var4.intValue(); // unboxing
+
+        int var6 = var4; // auto unboxing
     }
     
 }
