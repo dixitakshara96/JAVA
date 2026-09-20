@@ -31,6 +31,5 @@ public class Final {
         stud.name = "Navin";
         System.out.println("\nUpdated");
         stud.infoDisplay();
-
     }
 }
