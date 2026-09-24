@@ -9,9 +9,15 @@
 * initially jab koi value nhi de rhe hai toh default it will store defalut value of int which is 0.
 
 ## Case 3 — Array Bounds Trap
-` OUTPUT : `
+` OUTPUT : 0 (array.length) and ArrayIndexOutOfBoundsException (arr[0]) `
+* ab jab humne array ko instantiate karte time 0 space create ki elements ke liye 
+* yani koi space hi nhi bnayi 
+* toh arr[0] mai koi element hoga hi nhi aur arr ke andar aap kuch rakh bhi nhi skte ho.
 
 ## Case 4 — The Length Property vs Method
+` OUTPUT : Compilation Error `
+* because no much method is there 
+* array.length is a property not method.
 
 ## Case 5 — Array Print Behavior
 ` OUTPUT : actually isme ajeeb se hexadecimal no. output mai milenge` 
