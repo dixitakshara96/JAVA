@@ -1,4 +1,4 @@
-package Code_Analysis;
+package Code_Analysis.Task10;
 
 import java.util.ArrayList;
 import java.util.Arrays;

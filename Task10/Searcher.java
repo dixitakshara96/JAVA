@@ -1,5 +1,3 @@
-import java.lang
-
 public class Searcher {
 
     // Linear Search with step count

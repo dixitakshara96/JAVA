@@ -16,7 +16,7 @@
 
 ## CASE 4 : 
 #### ` OUPUT : 3 , -3 , -1 ` 
-* REASON: abhi nhi pta
+* REASON: If the key is not found, it returns a negative number calculated as -(insertion point) - 1, where the insertion point is the index where the key would be inserted to keep the array sorted
 
 ## CASE 5 : 
 #### ` OUPUT : ["Cherry" , "apple" , "banana"] ` 

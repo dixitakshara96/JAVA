@@ -7,7 +7,7 @@
 (i don't know i could be wrong so kindly tell).
 
 ## Q.2. Integer Overflow: What is integer overflow, and why must a Java application handle upper/lower limits of primitive types like int during arithmetic?
-- In Java Primitive Data Type it tells about the size and range of data it can hold if the value exceeds the range of the datattype size the there will be Overflow
+- In Java Primitive Data Type it tells about the size and range of data it can hold if the value exceeds the range of the datatype size the there will be Overflow
 - For example : int has size 4 byte according to which it has range [-2147483648,2146483647] any value lies in this range can be stored as int but beyond this range cannot be store in int.
 - so when any something like this happens Java does not know how to handle such issue, it doesn't even through an error.
 - tabh kya hota hai we assume ki saari values range ki ek circle mein arrange hai (pizza which as too many pieces) so jab last value ke baad agar exceed karega then wo phir stop nhi hoga 360" degrees ke baad wo aage aur chakkar kaatega. (I'll try to add image related to this)s
