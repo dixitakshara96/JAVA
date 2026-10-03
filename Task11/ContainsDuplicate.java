@@ -4,6 +4,12 @@ import java.util.HashSet;
 
 public class ContainsDuplicate {
 
+    // using this method we store the value of array into a set 
+    // set only contains the unique elements
+    // so if any value repeats it automatically not stored in a set.
+    // now if we want to know that the array contains any duplicate element 
+    // then we can compare the length/size of an array and a set.
+    
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 
