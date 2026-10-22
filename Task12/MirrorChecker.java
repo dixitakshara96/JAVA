@@ -53,6 +53,7 @@ public class MirrorChecker {
             throw new IllegalArgumentException("Invalid clock time");
         }
 
+        // converted into minutes
         int total = (h % 12) * 60 + m;
         int mirror = (720 - total) % 720;
 
