@@ -50,3 +50,21 @@ EmptyStackException
 - 
 
 ---
+
+## Case 10 — Palindrome Check with l != r (Revision: Two Pointers)
+
+### Output
+
+```text
+true
+false
+true
+```
+
+### Reason
+
+- using two pointers we can quickly find if the given String is palindrome or not
+- as the characters beginning and ending must be same to be palindome
+
+
+---
