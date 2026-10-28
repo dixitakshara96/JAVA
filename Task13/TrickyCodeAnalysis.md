@@ -50,6 +50,22 @@ EmptyStackException
 - 
 
 ---
+## Case 8 — char + int as a HashMap Key (Revision: Hashing)
+
+### Output
+
+```text
+2
+null
+true
+1
+```
+
+### Reason
+
+- 
+
+---
 
 ## Case 10 — Palindrome Check with l != r (Revision: Two Pointers)
 
