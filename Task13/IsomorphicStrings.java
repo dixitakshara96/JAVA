@@ -19,6 +19,10 @@ public class IsomorphicStrings {
             char c1 = s.charAt(i);
             char c2 = t.charAt(i);
 
+            // if map1 already contains key , then we check if the value we are mapping 
+            // is same as that was mapped to key before
+            // if not we return false
+            // else we map the key and value
             if (map1.containsKey(c1)) {
                 if (map1.get(c1) != c2) {
                     return false;
@@ -27,6 +31,8 @@ public class IsomorphicStrings {
                 map1.put(c1, c2);
             }
 
+            // we check if a first string is isomorphic to second string
+            // then we also check if second string is isomorphic to first string
             if (map2.containsKey(c2)) {
                 if (map2.get(c2) != c1) {
                     return false;
