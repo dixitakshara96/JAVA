@@ -1,4 +1,4 @@
-package TREE;
+package DSA.TREE;
 
 import javax.swing.tree.TreeNode;
 
