@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 public class LongestHarmoniousSubSequence {
 
+    // also got to know the difference between Subsequence and Subarray
+
     public static int findLHS(int[] nums) {
 
         HashMap<Integer, Integer> freq = new HashMap<>();
